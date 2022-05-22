@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="CountMinimumSteps">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/SortByFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/InversionCounting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.SortByFrequency">
+  <component name="RunManager" selected="Application.InversionCounting">
     <configuration name="CountMinimumSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.CountMinimumSteps" />
       <module name="GitHub-QA" />
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestContiguousSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.LargestContiguousSubArray" />
+    <configuration name="InversionCounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.InversionCounting" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InversionCounting" />
         <item itemvalue="Application.SortByFrequency" />
         <item itemvalue="Application.Tes" />
         <item itemvalue="Application.CountMinimumSteps" />
         <item itemvalue="Application.GCD" />
-        <item itemvalue="Application.LargestContiguousSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653155071417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CountMinimumSteps">
+      <created>1653214035712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653214035712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,25 +193,25 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653203672993" />
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1653213999107">
+    <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1653216094846">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213999107" />
+    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216094846" />
     <state width="1858" height="340" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653159747987" />
-    <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1653213999107">
+    <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1653216094846">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213999107" />
+    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216094846" />
     <state width="1858" height="340" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653159747987" />
-    <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1653213999107">
+    <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1653216094846">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213999107" />
+    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216094846" />
     <state width="1858" height="340" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653159747986" />
-    <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1653213999107">
+    <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1653216094846">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213999107" />
+    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216094846" />
     <state width="1858" height="340" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653159747987" />
     <state width="1877" height="238" key="GridCell.Tab.1.bottom" timestamp="1653213983554">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -226,10 +233,15 @@
     </state>
     <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213983554" />
     <state width="1858" height="340" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653159747988" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1653155077915">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1653214859292">
+      <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653214859292" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
+    <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653216287430">
+      <screen x="-1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216287430" />
     <state x="-1230" y="277" key="extract.method.dialog" timestamp="1653153340172">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
