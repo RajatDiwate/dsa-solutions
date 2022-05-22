@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="InversionCounting">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/ShortestUnsortedArr13.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="ShortestUnsortedArr13&#10;An array is given of n length, and problem is that we have to find the length of shortest unordered {neither increasing nor decreasing} sub array in given array.&#10;The idea is based on the fact that size of shortest subarray would be either 0 or 3.">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/TwoPointer14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,20 +58,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.ShortestUnsortedArr13">
-    <configuration name="CountMinimumSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.CountMinimumSteps" />
-      <module name="GitHub-QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoPointer14">
     <configuration name="InversionCounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.InversionCounting" />
       <module name="GitHub-QA" />
@@ -124,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoPointer14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.TwoPointer14" />
+      <module name="GitHub-QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoPointer14" />
         <item itemvalue="Application.ShortestUnsortedArr13" />
         <item itemvalue="Application.InversionCounting" />
         <item itemvalue="Application.SortByFrequency" />
         <item itemvalue="Application.Tes" />
-        <item itemvalue="Application.CountMinimumSteps" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653216332187</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ShortestUnsortedArr13&#10;An array is given of n length, and problem is that we have to find the length of shortest unordered {neither increasing nor decreasing} sub array in given array.&#10;The idea is based on the fact that size of shortest subarray would be either 0 or 3.">
+      <created>1653218027742</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653218027742</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,7 +189,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CountMinimumSteps" />
     <MESSAGE value="InversionCounting" />
-    <option name="LAST_COMMIT_MESSAGE" value="InversionCounting" />
+    <MESSAGE value="ShortestUnsortedArr13&#10;An array is given of n length, and problem is that we have to find the length of shortest unordered {neither increasing nor decreasing} sub array in given array.&#10;The idea is based on the fact that size of shortest subarray would be either 0 or 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="ShortestUnsortedArr13&#10;An array is given of n length, and problem is that we have to find the length of shortest unordered {neither increasing nor decreasing} sub array in given array.&#10;The idea is based on the fact that size of shortest subarray would be either 0 or 3." />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
@@ -201,25 +209,25 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653203672993" />
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1653216094846">
+    <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1653219480471">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216094846" />
+    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653219480471" />
     <state width="1858" height="340" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653159747987" />
-    <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1653216094846">
+    <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1653219480471">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216094846" />
+    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653219480471" />
     <state width="1858" height="340" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653159747987" />
-    <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1653216094846">
+    <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1653219480471">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216094846" />
+    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653219480471" />
     <state width="1858" height="340" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653159747986" />
-    <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1653216094846">
+    <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1653219480471">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216094846" />
+    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653219480471" />
     <state width="1858" height="340" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653159747987" />
     <state width="1877" height="238" key="GridCell.Tab.1.bottom" timestamp="1653213983554">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -241,10 +249,10 @@
     </state>
     <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213983554" />
     <state width="1858" height="340" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653159747988" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1653216338771">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1653218032125">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216338771" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653218032125" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653216287430">
       <screen x="-1920" y="0" width="1920" height="1032" />
