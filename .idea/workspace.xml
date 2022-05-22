@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="CountMinimumSteps">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/InversionCounting.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="InversionCounting">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/ShortestUnsortedArr13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.InversionCounting">
+  <component name="RunManager" selected="Application.ShortestUnsortedArr13">
     <configuration name="CountMinimumSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.CountMinimumSteps" />
       <module name="GitHub-QA" />
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.GCD" />
+    <configuration name="InversionCounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.InversionCounting" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InversionCounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.InversionCounting" />
+    <configuration name="ShortestUnsortedArr13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.ShortestUnsortedArr13" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestUnsortedArr13" />
         <item itemvalue="Application.InversionCounting" />
         <item itemvalue="Application.SortByFrequency" />
         <item itemvalue="Application.Tes" />
         <item itemvalue="Application.CountMinimumSteps" />
-        <item itemvalue="Application.GCD" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653214035712</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="InversionCounting">
+      <created>1653216332187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653216332187</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CountMinimumSteps" />
-    <option name="LAST_COMMIT_MESSAGE" value="CountMinimumSteps" />
+    <MESSAGE value="InversionCounting" />
+    <option name="LAST_COMMIT_MESSAGE" value="InversionCounting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
@@ -233,10 +241,10 @@
     </state>
     <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213983554" />
     <state width="1858" height="340" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653159747988" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1653214859292">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1653216338771">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653214859292" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653216338771" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653216287430">
       <screen x="-1920" y="0" width="1920" height="1032" />
