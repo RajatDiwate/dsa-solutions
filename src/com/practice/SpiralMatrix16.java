@@ -27,8 +27,7 @@ public class SpiralMatrix16 {
                 m--;
             }
 
-            // Print the first column from the remaining
-            // columns */
+
             if (l < n) {
                 for (i = m - 1; i >= k; --i) {
                     System.out.print(arr [i][l] + " ");
