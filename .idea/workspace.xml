@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="Two Pointers Technique">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/MaxTripleSum15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/SpiralMatrix.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="maximum-triplet-sum-array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/SpiralMatrix16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/SpiralMatrix16.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpiralMatrix16">
     <configuration name="InversionCounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.InversionCounting" />
       <module name="GitHub-QA" />
@@ -127,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxTripleSum15" />
         <item itemvalue="Application.SpiralMatrix16" />
+        <item itemvalue="Application.MaxTripleSum15" />
         <item itemvalue="Application.TwoPointer14" />
         <item itemvalue="Application.ShortestUnsortedArr13" />
         <item itemvalue="Application.InversionCounting" />
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653219544094</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="maximum-triplet-sum-array">
+      <created>1653321320613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653321320613</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +205,8 @@
     <MESSAGE value="InversionCounting" />
     <MESSAGE value="ShortestUnsortedArr13&#10;An array is given of n length, and problem is that we have to find the length of shortest unordered {neither increasing nor decreasing} sub array in given array.&#10;The idea is based on the fact that size of shortest subarray would be either 0 or 3." />
     <MESSAGE value="Two Pointers Technique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two Pointers Technique" />
+    <MESSAGE value="maximum-triplet-sum-array" />
+    <option name="LAST_COMMIT_MESSAGE" value="maximum-triplet-sum-array" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
@@ -218,25 +225,25 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653203672993" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1653321254255">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1653325247548">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653321254255" />
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653325247548" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1653321254255">
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1653325247548">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653321254255" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653325247548" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1653321254255">
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1653325247548">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653321254255" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653325247548" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1653321254255">
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1653325247548">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653321254255" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653325247548" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
     <state width="1877" height="238" key="GridCell.Tab.1.bottom" timestamp="1653227307669">
       <screen x="0" y="0" width="1536" height="816" />
