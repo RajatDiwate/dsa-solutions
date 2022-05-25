@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="MaxPathSumMatrix-Optimized">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/RearrangePositiveNeg.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="Rearrange array in alternating positive &amp; negative items with O(1) extra space | Set 1">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/RearrangeLargestSmallest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,9 @@
     </option>
   </component>
   <component name="ProjectId" id="29RNauk6mkjoXUuZCOAVjLfPrft" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +61,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.RearrangePositiveNeg">
+  <component name="RunManager" selected="Application.RearrangeLargestSmallest">
     <configuration name="DiagonalExchange17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.DiagonalExchange17" />
       <module name="GitHub-QA" />
@@ -85,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxTripleSum15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.MaxTripleSum15" />
+    <configuration name="RearrangeLargestSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.RearrangeLargestSmallest" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RearrangeLargestSmallest" />
         <item itemvalue="Application.RearrangePositiveNeg" />
         <item itemvalue="Application.MaxPathSumMatrix" />
         <item itemvalue="Application.DiagonalExchange17" />
         <item itemvalue="Application.SpiralMatrix16" />
-        <item itemvalue="Application.MaxTripleSum15" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653496861520</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Rearrange array in alternating positive &amp; negative items with O(1) extra space | Set 1">
+      <created>1653498313437</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653498313437</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +239,8 @@
     <MESSAGE value="maximum-triplet-sum-array" />
     <MESSAGE value="DiagonalExchange17" />
     <MESSAGE value="MaxPathSumMatrix-Optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="MaxPathSumMatrix-Optimized" />
+    <MESSAGE value="Rearrange array in alternating positive &amp; negative items with O(1) extra space | Set 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearrange array in alternating positive &amp; negative items with O(1) extra space | Set 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
@@ -244,54 +255,54 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-825" y="218" key="#xdebugger.evaluate/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496705639" />
-    <state width="391" height="466" key="DebuggerActiveHint" timestamp="1653203672993">
+    <state width="391" height="466" key="DebuggerActiveHint" timestamp="1653499040532">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653203672993" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1653498234660">
+    <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499040532" />
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1653499091213">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653498234660" />
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499091213" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1653498234660">
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1653499091213">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653498234660" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499091213" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1653498234660">
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1653499091213">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653498234660" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499091213" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1653498234660">
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1653499091213">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653498234660" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499091213" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="238" key="GridCell.Tab.1.bottom" timestamp="1653496759701">
+    <state width="1877" height="238" key="GridCell.Tab.1.bottom" timestamp="1653499065773">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496759701" />
+    <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499065773" />
     <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="238" key="GridCell.Tab.1.center" timestamp="1653496759701">
+    <state width="1877" height="238" key="GridCell.Tab.1.center" timestamp="1653499065773">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496759701" />
+    <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499065773" />
     <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="238" key="GridCell.Tab.1.left" timestamp="1653496759701">
+    <state width="1877" height="238" key="GridCell.Tab.1.left" timestamp="1653499065773">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496759701" />
+    <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499065773" />
     <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="238" key="GridCell.Tab.1.right" timestamp="1653496759701">
+    <state width="1877" height="238" key="GridCell.Tab.1.right" timestamp="1653499065773">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496759701" />
+    <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499065773" />
     <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1653496863134">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1653499107095">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496863134" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653499107095" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653216287430">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -305,6 +316,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1653154720640" />
+    <state x="-1297" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1653498715543">
+      <screen x="-1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="-1297" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653498715543" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -341,6 +356,11 @@
           <url>file://$PROJECT_DIR$/src/com/practice/MaxPathSumMatrix.java</url>
           <line>26</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/RearrangeLargestSmallest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
