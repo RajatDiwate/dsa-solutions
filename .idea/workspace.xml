@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="maximum-triplet-sum-array">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/DiagonalExchange17.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="DiagonalExchange17">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/MaxPathSumMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.DiagonalExchange17">
+  <component name="RunManager" selected="Application.MaxPathSumMatrix">
     <configuration name="DiagonalExchange17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.DiagonalExchange17" />
       <module name="GitHub-QA" />
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxTripleSum15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.MaxTripleSum15" />
+    <configuration name="MaxPathSumMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.MaxPathSumMatrix" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestUnsortedArr13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.ShortestUnsortedArr13" />
+    <configuration name="MaxTripleSum15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.MaxTripleSum15" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxPathSumMatrix" />
         <item itemvalue="Application.DiagonalExchange17" />
         <item itemvalue="Application.SpiralMatrix16" />
         <item itemvalue="Application.MaxTripleSum15" />
         <item itemvalue="Application.TwoPointer14" />
-        <item itemvalue="Application.ShortestUnsortedArr13" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653327638487</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DiagonalExchange17">
+      <created>1653494265710</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653494265710</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +220,8 @@
     <MESSAGE value="ShortestUnsortedArr13&#10;An array is given of n length, and problem is that we have to find the length of shortest unordered {neither increasing nor decreasing} sub array in given array.&#10;The idea is based on the fact that size of shortest subarray would be either 0 or 3." />
     <MESSAGE value="Two Pointers Technique" />
     <MESSAGE value="maximum-triplet-sum-array" />
-    <option name="LAST_COMMIT_MESSAGE" value="maximum-triplet-sum-array" />
+    <MESSAGE value="DiagonalExchange17" />
+    <option name="LAST_COMMIT_MESSAGE" value="DiagonalExchange17" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
@@ -224,58 +232,58 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="499" y="155" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.816@0.0.1536.816" timestamp="1653157489170" />
-    <state x="-825" y="218" key="#xdebugger.evaluate" timestamp="1653203665938">
+    <state x="-825" y="218" key="#xdebugger.evaluate" timestamp="1653496705639">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-825" y="218" key="#xdebugger.evaluate/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653203665938" />
+    <state x="-825" y="218" key="#xdebugger.evaluate/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496705639" />
     <state width="391" height="466" key="DebuggerActiveHint" timestamp="1653203672993">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653203672993" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1653493652489">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1653496837158">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653493652489" />
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496837158" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1653493652489">
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1653496837158">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653493652489" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496837158" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1653493652489">
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1653496837158">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653493652489" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496837158" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1653493652489">
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1653496837158">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653493652489" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496837158" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="238" key="GridCell.Tab.1.bottom" timestamp="1653227307669">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213983554" />
-    <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="238" key="GridCell.Tab.1.center" timestamp="1653227307669">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213983554" />
-    <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="238" key="GridCell.Tab.1.left" timestamp="1653227307669">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213983554" />
-    <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state width="1877" height="238" key="GridCell.Tab.1.right" timestamp="1653227307669">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653213983554" />
-    <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1653219547260">
+    <state width="1877" height="238" key="GridCell.Tab.1.bottom" timestamp="1653496759701">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653219547260" />
+    <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496759701" />
+    <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
+    <state width="1877" height="238" key="GridCell.Tab.1.center" timestamp="1653496759701">
+      <screen x="-1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496759701" />
+    <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
+    <state width="1877" height="238" key="GridCell.Tab.1.left" timestamp="1653496759701">
+      <screen x="-1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496759701" />
+    <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
+    <state width="1877" height="238" key="GridCell.Tab.1.right" timestamp="1653496759701">
+      <screen x="-1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653496759701" />
+    <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653227307669" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1653494267701">
+      <screen x="-1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653494267701" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653216287430">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -320,6 +328,11 @@
           <url>file://$PROJECT_DIR$/src/com/practice/CountMinimumSteps.java</url>
           <line>12</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/MaxPathSumMatrix.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
