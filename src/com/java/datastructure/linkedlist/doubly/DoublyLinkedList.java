@@ -10,49 +10,12 @@ public class DoublyLinkedList {
     }
 
     public static void main(String[] args) {
-        addElementAtBeggining(23);
-        insertAfterNode(13, 45);
-        insertAtEnd(34);
-        printDoublyLL();
-        printDoublyLLReverse();
-    }
-
-    private static void printDoublyLLReverse() {
-        Node lastNode = getLastNode();
+        addElementAtBeginning(23);
 
     }
 
-    private static Node getLastNode() {
-        Node current = head;
-        while (current != null && current.nextNode != null) {
-            current = current.nextNode;
-        }
-        return current;
-    }
-
-    private static void printDoublyLL() {
-        Node current = head;
-        while (current != null) {
-            System.out.print(current.data + " ");
-            current = current.nextNode;
-        }
-        System.out.println("");
+    private static void addElementAtBeginning(int inputData) {
 
     }
-
-    private static void addElementAtBeggining(int inputData) {
-        Node newNode = new Node();
-        newNode.data = inputData;
-        head.prevNode = newNode;
-        head = newNode;
-    }
-
-    private static void insertAtEnd(int inputData) {
-
-    }
-
-    private static void insertAfterNode(int inputDate, int element) {
-    }
-
 
 }
