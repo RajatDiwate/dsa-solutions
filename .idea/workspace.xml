@@ -22,11 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Find the middle of a given linked list">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/DetectALoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/LinkedListUtil.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Detecta and remove Loop">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/PrintNthLastNodeInLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/datastructure/linkedlist/singly/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/datastructure/linkedlist/singly/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.DetectALoop">
+  <component name="RunManager" selected="Application.PrintNthLastNodeInLL">
     <configuration name="DetectALoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.DetectALoop" />
       <module name="GitHub-QA" />
@@ -95,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintReverseLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.PrintReverseLL" />
+    <configuration name="PrintNthLastNodeInLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.PrintNthLastNodeInLL" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintNthLastNodeInLL" />
         <item itemvalue="Application.DetectALoop" />
         <item itemvalue="Application.TestLL" />
         <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.FindMiddleEleLL" />
-        <item itemvalue="Application.PrintReverseLL" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654790809889</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="//Detecta and remove Loop">
+      <created>1655614755251</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655614755251</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +276,8 @@
     <MESSAGE value="Given an array of integers, task is to print the array in the order – smallest number, Largest number, 2nd smallest number, 2nd largest number, 3rd smallest number, 3rd largest number and so on….." />
     <MESSAGE value="SinglyLinkedList" />
     <MESSAGE value="//Find the middle of a given linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="//Find the middle of a given linked list" />
+    <MESSAGE value="//Detecta and remove Loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="//Detecta and remove Loop" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
@@ -298,25 +304,25 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1180" y="233" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768599027" />
-    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1655614191637">
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1655615718890">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655614191637" />
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655615718890" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1655614191637">
+    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1655615718890">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655614191637" />
+    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655615718890" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1655614191637">
+    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1655615718890">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655614191637" />
+    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655615718890" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1655614191637">
+    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1655615718890">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655614191637" />
+    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655615718890" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1654969835637">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -342,10 +348,10 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1459" y="161" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654324028348" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1654790811654">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1655614756997">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654790811654" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655614756997" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653216287430">
       <screen x="-1920" y="0" width="1920" height="1032" />
