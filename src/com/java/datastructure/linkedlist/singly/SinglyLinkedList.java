@@ -18,9 +18,11 @@ public class SinglyLinkedList {
     }
 
     public static void main(String[] args) {
-        printLinkedList();
+      /*  printLinkedList();
         insertAtBeginning(2);
         insertAtBeginning(3);
+        insertAtBeginning(85);
+
         insertAtBeginning(4);
         insertAtBeginning(76);
         insertAtBeginning(27);
@@ -56,7 +58,30 @@ public class SinglyLinkedList {
         //PrintLL without reversing
         Node curr = head;
         printLinkedListWithoutReversal(curr);
-        System.out.println();
+        System.out.println();*/
+
+        insertAtLast(5);
+        insertAtLast(6);
+        insertAtLast(7);
+        insertAtLast(8);
+        insertAtLast(55);
+        insertAtLast(46);
+        insertAtLast(4);
+        insertAtLast(22);
+        insertAtLast(53);
+        insertAtLast(66);
+        printLinkedList();
+        Node lastNode = findExistingNode(66);
+        Node middleNode = findExistingNode(46);
+        initializeLoop(lastNode, middleNode);
+       // printLinkedList();
+        //Detect a Loop
+        Node node = detectLoop();
+        int loopLen = findLengthOfLoop(node);
+        removeLoop(loopLen);
+
+        printLinkedList();
+
     }
 
     private static void printLinkedListWithoutReversal(Node node) {
@@ -66,55 +91,62 @@ public class SinglyLinkedList {
         printLinkedListWithoutReversal(node.nextNode);
         System.out.print(node.data + " ");
     }
-
+//37 36 34 2 3 85 4 76 58 27 66
     private static void removeLoop(int loopLen) {
-        Node curr = head;
-        Node nodeAtDist = findNodeAtDistance(loopLen);
-        while (nodeAtDist.nextNode != curr) {
-            curr = curr.nextNode;
-            nodeAtDist = nodeAtDist.nextNode;
+        Node firstPointer = head;
+        Node secondPointer = findNodeAtDistance(loopLen);
+        while(secondPointer.nextNode != firstPointer) {
+            firstPointer = firstPointer.nextNode;
+            secondPointer = secondPointer.nextNode;
         }
-        nodeAtDist.nextNode = null;
+        secondPointer.nextNode = null;
     }
 
-    private static Node findNodeAtDistance(int loopLen) {
-        Node curr = head;
-        loopLen--;
-        while (loopLen != 0) {
-            curr = curr.nextNode;
-            loopLen--;
+    private static Node findNodeAtDistance(int distance) {
+        Node current = head;
+        distance--;
+        while (distance != 0) {
+            distance--;
+            current = current.nextNode;
         }
-        System.out.println("ele found" + curr.data);
-        return curr;
+        return current;
     }
 
-    private static int findLengthOfLoop(Node node) {
-        if (node == null)
+    private static int findLengthOfLoop(Node nodeInsideTheLoop) {
+        if(nodeInsideTheLoop == null) {
+            System.out.println("Loop doesn't exists.");
             return 0;
-        Node curr = node.nextNode;
-        int len = 1;
-        while (node != curr) {
-            curr = curr.nextNode;
-            len++;
         }
-        System.out.println("Length of Loop is :" + len);
-        return len;
+        Node currentNode = nodeInsideTheLoop.nextNode;
+        int length = 1;
+        while(currentNode != nodeInsideTheLoop) {
+            length++;
+            currentNode = currentNode.nextNode;
+        }
+        System.out.println("Length of Loop : " + length);
+        return length;
 
     }
 
     private static Node detectLoop() {
+        if(head == null) {
+            System.out.println("LinkedList is empty");
+            return null;
+        }
         Node slow = head;
         Node fast = head.nextNode;
-        while (fast != null && fast.nextNode != null && slow != fast) {
+        while(fast != null && fast.nextNode != null && slow != fast) {
             slow = slow.nextNode;
             fast = fast.nextNode.nextNode;
         }
-        if (slow != null && slow == fast) {
-            System.out.println("Loop detected at :" + fast.data);
+
+        if(slow != null && slow == fast) {
+            System.out.println("Loop detected in Linked List.");
             return slow;
+        } else {
+            System.out.println("Loop doesn't exists in LinkedList.");
+            return null;
         }
-        System.out.println("Loop doesn't exists in LinkedList.");
-        return null;
     }
 
     private static void initializeLoop(Node lastNode, Node middleNode) {

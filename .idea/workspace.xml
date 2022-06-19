@@ -22,14 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="SinglyLinkedList">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/FindMiddleEleLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/LinkedList_01Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/PrintReverseLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/ReverseInAltGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/ReverseInGroups.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Find the middle of a given linked list">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/DetectALoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/LinkedListUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/datastructure/linkedlist/doubly/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/datastructure/linkedlist/doubly/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/datastructure/linkedlist/singly/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/datastructure/linkedlist/singly/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +68,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.FindMiddleEleLL">
-    <configuration name="FindMiddleEleLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.FindMiddleEleLL" />
+  <component name="RunManager" selected="Application.DetectALoop">
+    <configuration name="DetectALoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.DetectALoop" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList_01Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.LinkedList_01Reverse" />
+    <configuration name="FindMiddleEleLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.FindMiddleEleLL" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInAltGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.ReverseInAltGroups" />
+    <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.datastructure.linkedlist.singly.SinglyLinkedList" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.linkedList.*" />
+          <option name="PATTERN" value="com.java.datastructure.linkedlist.singly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.ReverseInGroups" />
+    <configuration name="TestLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.datastructure.linkedlist.singly.TestLL" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.linkedList.*" />
+          <option name="PATTERN" value="com.java.datastructure.linkedlist.singly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetectALoop" />
+        <item itemvalue="Application.TestLL" />
+        <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.FindMiddleEleLL" />
         <item itemvalue="Application.PrintReverseLL" />
-        <item itemvalue="Application.ReverseInAltGroups" />
-        <item itemvalue="Application.ReverseInGroups" />
-        <item itemvalue="Application.LinkedList_01Reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654343722685</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="//Find the middle of a given linked list">
+      <created>1654790809889</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654790809889</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +270,8 @@
     <MESSAGE value="Rearrange array in alternating positive &amp; negative items with O(1) extra space | Set 1" />
     <MESSAGE value="Given an array of integers, task is to print the array in the order – smallest number, Largest number, 2nd smallest number, 2nd largest number, 3rd smallest number, 3rd largest number and so on….." />
     <MESSAGE value="SinglyLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="SinglyLinkedList" />
+    <MESSAGE value="//Find the middle of a given linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="//Find the middle of a given linked list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
@@ -285,62 +290,62 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-825" y="218" key="#xdebugger.evaluate/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654704036734" />
-    <state width="444" height="466" key="DebuggerActiveHint" timestamp="1654704029747">
+    <state width="444" height="466" key="DebuggerActiveHint" timestamp="1654969728663">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="444" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654704029747" />
+    <state width="444" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654969728663" />
     <state x="-1180" y="233" key="FileChooserDialogImpl" timestamp="1654768599027">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1180" y="233" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768599027" />
-    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1654790601231">
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1655614191637">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654790601231" />
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655614191637" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1654790601231">
+    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1655614191637">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654790601231" />
+    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655614191637" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1654790601231">
+    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1655614191637">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654790601231" />
+    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655614191637" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1654790601231">
+    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1655614191637">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654790601231" />
+    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655614191637" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="237" key="GridCell.Tab.1.bottom" timestamp="1654708029410">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1654969835637">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654708029410" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654969835637" />
     <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="237" key="GridCell.Tab.1.center" timestamp="1654708029410">
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1654969835637">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654708029410" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654969835637" />
     <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="237" key="GridCell.Tab.1.left" timestamp="1654708029410">
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1654969835637">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654708029410" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654969835637" />
     <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="237" key="GridCell.Tab.1.right" timestamp="1654708029410">
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1654969835637">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654708029410" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654969835637" />
     <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
     <state x="-1459" y="161" key="SettingsEditor" timestamp="1654324028348">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1459" y="161" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654324028348" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1654343723275">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1654790811654">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654343723275" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654790811654" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653216287430">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -408,6 +413,21 @@
           <url>file://$PROJECT_DIR$/src/com/practice/linkedList/ReverseInGroups.java</url>
           <line>25</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/datastructure/linkedlist/singly/SinglyLinkedList.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/linkedList/DetectALoop.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/java/datastructure/linkedlist/singly/SinglyLinkedList.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
