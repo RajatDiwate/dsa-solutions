@@ -21,4 +21,20 @@ public class LinkedListUtil {
         head=newNode;
         return head;
     }
+    static Node addAtEnd(Node head,int inputData) {
+        Node newNode=new Node();
+        newNode.data=inputData;
+        newNode.nextNode=null;
+        if(head==null){
+            head=newNode;
+            return head;
+        }
+        Node curr=head;
+        while(curr.nextNode!=null){
+            curr=curr.nextNode;
+        }
+        curr.nextNode=newNode;
+        return head;
+    }
+
 }
