@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//getIntersection of sortedLL">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/DeleteAltNode.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Delete Alt Nodes">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/UnionIntersection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.DeleteAltNode">
+  <component name="RunManager" selected="Application.UnionIntersection">
     <configuration name="CommonNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.CommonNode" />
       <module name="GitHub-QA" />
@@ -119,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNthLastNodeInLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.PrintNthLastNodeInLL" />
+    <configuration name="UnionIntersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.UnionIntersection" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.linkedList.CommonNode" />
+          <option name="PATTERN" value="com.practice.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UnionIntersection" />
         <item itemvalue="Application.DeleteAltNode" />
         <item itemvalue="Application.IntersectionSortedList" />
         <item itemvalue="Application.CommonNode" />
         <item itemvalue="Application.PairwiseSwap" />
-        <item itemvalue="Application.PrintNthLastNodeInLL" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656523055034</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="//Delete Alt Nodes">
+      <created>1656524832506</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1656524832506</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,7 +309,8 @@
     <MESSAGE value="//pairWiseSwapByData &amp;&amp; pairwiseSwapByNode &amp;&amp; rotateLLByN &amp;checkIfLLIsPlaindrome" />
     <MESSAGE value="//getIntersection of two heads" />
     <MESSAGE value="//getIntersection of sortedLL" />
-    <option name="LAST_COMMIT_MESSAGE" value="//getIntersection of sortedLL" />
+    <MESSAGE value="//Delete Alt Nodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="//Delete Alt Nodes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
@@ -329,25 +337,25 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1180" y="233" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768599027" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1656524533391">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1656526889309">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656524533391" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656526889309" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1656524533391">
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1656526889309">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656524533391" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656526889309" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1656524533391">
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1656526889309">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656524533391" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656526889309" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1656524533391">
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1656526889309">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656524533391" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656526889309" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
     <state width="1877" height="432" key="GridCell.Tab.1.bottom" timestamp="1656439573688">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -373,19 +381,19 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1459" y="161" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654324028348" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1656523056937">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1656524833367">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656523056937" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656524833367" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656432611450">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656432611450" />
-    <state x="-1230" y="277" key="extract.method.dialog" timestamp="1653153340172">
+    <state x="-1230" y="277" key="extract.method.dialog" timestamp="1656528333147">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1230" y="277" key="extract.method.dialog/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1653153340172" />
+    <state x="-1230" y="277" key="extract.method.dialog/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656528333147" />
     <state x="-1578" y="136" key="new project wizard" timestamp="1654768589477">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
