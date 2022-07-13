@@ -22,8 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Delete Alt Nodes">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/UnionIntersection.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Union and Intersection">
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/FibonacciSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/Subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/FlattingLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/MergeSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/SumTwoLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/linkedList/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +71,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.UnionIntersection">
-    <configuration name="CommonNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.CommonNode" />
+  <component name="RunManager" selected="Application.Subsequence">
+    <configuration name="FibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.FibonacciSequence" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.linkedList.CommonNode" />
+          <option name="PATTERN" value="com.practice.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,21 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteAltNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.DeleteAltNode" />
-      <module name="GitHub-QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntersectionSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.IntersectionSortedList" />
+    <configuration name="MergeSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.MergeSortedLists" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -106,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairwiseSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.PairwiseSwap" />
+    <configuration name="Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.Subsequence" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.linkedList.CommonNode" />
+          <option name="PATTERN" value="com.practice.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,8 +111,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionIntersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.UnionIntersection" />
+    <configuration name="SumTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.SumTwoLinkedList" />
+      <module name="GitHub-QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.linkedList.Test" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UnionIntersection" />
-        <item itemvalue="Application.DeleteAltNode" />
-        <item itemvalue="Application.IntersectionSortedList" />
-        <item itemvalue="Application.CommonNode" />
-        <item itemvalue="Application.PairwiseSwap" />
+        <item itemvalue="Application.Subsequence" />
+        <item itemvalue="Application.FibonacciSequence" />
+        <item itemvalue="Application.SumTwoLinkedList" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MergeSortedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656524832506</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="//Union and Intersection">
+      <created>1656528848610</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656528848610</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +322,8 @@
     <MESSAGE value="//getIntersection of two heads" />
     <MESSAGE value="//getIntersection of sortedLL" />
     <MESSAGE value="//Delete Alt Nodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="//Delete Alt Nodes" />
+    <MESSAGE value="//Union and Intersection" />
+    <option name="LAST_COMMIT_MESSAGE" value="//Union and Intersection" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
@@ -325,71 +338,71 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="499" y="155" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.816@0.0.1536.816" timestamp="1653157489170" />
-    <state x="-825" y="218" key="#xdebugger.evaluate" timestamp="1656429541158">
+    <state x="-825" y="218" key="#xdebugger.evaluate" timestamp="1657741565545">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-825" y="218" key="#xdebugger.evaluate/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656429541158" />
-    <state width="444" height="466" key="DebuggerActiveHint" timestamp="1656429536038">
+    <state x="-825" y="218" key="#xdebugger.evaluate/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741565545" />
+    <state width="444" height="466" key="DebuggerActiveHint" timestamp="1657741516848">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="444" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656429536038" />
+    <state width="444" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741516848" />
     <state x="-1180" y="233" key="FileChooserDialogImpl" timestamp="1654768599027">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1180" y="233" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768599027" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1656526889309">
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom" timestamp="1657741638463">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656526889309" />
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741638463" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1656526889309">
+    <state width="1877" height="384" key="GridCell.Tab.0.center" timestamp="1657741638463">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656526889309" />
+    <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741638463" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1656526889309">
+    <state width="1877" height="384" key="GridCell.Tab.0.left" timestamp="1657741638463">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656526889309" />
+    <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741638463" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1656526889309">
+    <state width="1877" height="384" key="GridCell.Tab.0.right" timestamp="1657741638463">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656526889309" />
+    <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741638463" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="432" key="GridCell.Tab.1.bottom" timestamp="1656439573688">
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1657741638464">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="432" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656439573688" />
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741638464" />
     <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="432" key="GridCell.Tab.1.center" timestamp="1656439573688">
+    <state width="1877" height="384" key="GridCell.Tab.1.center" timestamp="1657741638464">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="432" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656439573688" />
+    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741638464" />
     <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="432" key="GridCell.Tab.1.left" timestamp="1656439573688">
+    <state width="1877" height="384" key="GridCell.Tab.1.left" timestamp="1657741638463">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="432" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656439573688" />
+    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741638463" />
     <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="432" key="GridCell.Tab.1.right" timestamp="1656439573688">
+    <state width="1877" height="384" key="GridCell.Tab.1.right" timestamp="1657741638464">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="432" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656439573688" />
+    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741638464" />
     <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
     <state x="-1459" y="161" key="SettingsEditor" timestamp="1654324028348">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1459" y="161" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654324028348" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1656524833367">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1657741987978">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656524833367" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657741987978" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
-    <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656432611450">
+    <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656528834461">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656432611450" />
+    <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656528834461" />
     <state x="-1230" y="277" key="extract.method.dialog" timestamp="1656528333147">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
@@ -479,6 +492,26 @@
           <line>75</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/linkedList/SumTwoLinkedList.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/Recursion/FibonacciSequence.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/Recursion/FibonacciSequence.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/Recursion/Subsequence.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -486,5 +519,10 @@
         <PinnedItemInfo parentTag="com.java.datastructure.linkedlist.singly.SinglyLLCrud$Node" memberName="data" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GitHub_QA$Subsequence.ic" NAME="Subsequence Coverage Results" MODIFIED="1657741495673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.practice.Recursion.*</FILTER>
+    </SUITE>
   </component>
 </project>
