@@ -23,11 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Recursion">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/PrintCountOfOccurencesOfSubSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/PrintFirstSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/SubSequesnceAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/SubsequenceCombinationOfSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/RecursiveSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/Subset/NoOfSubsetAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/Subset/SubSetSumII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/Recursion/SubSequesnceAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/Recursion/SubSequesnceAddition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/Recursion/Subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/Recursion/Subsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/Recursion/SubsequenceCombinationOfSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/Recursion/SubsequenceCombinationOfSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +71,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.SubsequenceCombinationOfSum">
-    <configuration name="PrintCountOfOccurencesOfSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.PrintCountOfOccurencesOfSubSequence" />
+  <component name="RunManager" selected="Application.SubSetSumII">
+    <configuration name="NoOfSubsetAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.Subset.NoOfSubsetAddition" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.Recursion.*" />
+          <option name="PATTERN" value="com.practice.Recursion.Subset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +90,7 @@
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.Recursion.*" />
+          <option name="PATTERN" value="com.practice.Recursion.Subset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,7 +103,20 @@
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.Recursion.*" />
+          <option name="PATTERN" value="com.practice.Recursion.Subset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubSetSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.Subset.SubSetSumII" />
+      <module name="GitHub-QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.Recursion.Subset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,20 +129,7 @@
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsequenceCombinationOfSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.SubsequenceCombinationOfSum" />
-      <module name="GitHub-QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.Recursion.*" />
+          <option name="PATTERN" value="com.practice.Recursion.Subset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubsequenceCombinationOfSum" />
-        <item itemvalue="Application.PrintCountOfOccurencesOfSubSequence" />
+        <item itemvalue="Application.SubSetSumII" />
+        <item itemvalue="Application.Subsequence" />
         <item itemvalue="Application.PrintFirstSubsequence" />
         <item itemvalue="Application.SubSequesnceAddition" />
-        <item itemvalue="Application.Subsequence" />
+        <item itemvalue="Application.NoOfSubsetAddition" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657742014056</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="//Recursion">
+      <created>1657996752161</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1657996752161</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,6 +345,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1653072117878" />
+    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1658252938465">
+      <screen x="-1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1658252938465" />
     <state x="-1230" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1654343655612">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
@@ -356,25 +369,25 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1180" y="233" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768599027" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1657828859790">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1658263901319">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657828859790" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1658263901319" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1657828859790">
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1658263901319">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657828859790" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1658263901319" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1657828859790">
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1658263901319">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657828859790" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1658263901319" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1657828859790">
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1658263901319">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657828859790" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1658263901319" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
     <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1657742019056">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -400,10 +413,10 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1459" y="161" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654324028348" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1657742014540">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1657996753128">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657742014540" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1657996753128" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656528834461">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -515,7 +528,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/practice/Recursion/Subsequence.java</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>

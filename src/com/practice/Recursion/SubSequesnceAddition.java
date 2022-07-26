@@ -2,7 +2,7 @@ package com.practice.Recursion;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Non repetative Sum
 public class SubSequesnceAddition {
 
     public static void main(String[] args) {

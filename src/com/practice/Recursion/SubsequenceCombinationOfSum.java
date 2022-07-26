@@ -2,7 +2,7 @@ package com.practice.Recursion;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//repetative arr[i] to get the sum/target
 public class SubsequenceCombinationOfSum {
     public static void main(String[] args) {
         int target = 7;
