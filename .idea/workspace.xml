@@ -23,19 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Recursion">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/BinarySearchRotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/BinarySearchSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/MaxNumSliding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/SlidingWindowArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/ArraysStrings/NQueenII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Recursion/ArraysStrings/NQueenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/test/ArrangeAlternateMaxMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/test/ArrayOfProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/test/MaxSubArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/test/MergeArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/test/SummationOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/HighLowIndexInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/LeastCommonNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/MaxProfitOrMinLoss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/MoveZeroToLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/QuickSortArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/Recursion/ArraysStrings/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/Recursion/ArraysStrings/NQueen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +71,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearchRotated">
-    <configuration name="BinarySearchRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.BinarySearchRotated" />
+  <component name="RunManager" selected="Application.QuickSortArray">
+    <configuration name="HighLowIndexInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.HighLowIndexInSortedArray" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.BinarySearchSorted" />
+    <configuration name="MaxProfitOrMinLoss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.MaxProfitOrMinLoss" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNumSliding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.MaxNumSliding" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.MergeIntervals" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -117,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.test.MaxSubArraySum" />
+    <configuration name="MoveZeroToLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.MoveZeroToLeft" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.test.*" />
+          <option name="PATTERN" value="com.practice.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindowArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.SlidingWindowArray" />
+    <configuration name="QuickSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.QuickSortArray" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchRotated" />
-        <item itemvalue="Application.BinarySearchSorted" />
-        <item itemvalue="Application.SlidingWindowArray" />
-        <item itemvalue="Application.MaxNumSliding" />
-        <item itemvalue="Application.MaxSubArraySum" />
+        <item itemvalue="Application.QuickSortArray" />
+        <item itemvalue="Application.MergeIntervals" />
+        <item itemvalue="Application.MaxProfitOrMinLoss" />
+        <item itemvalue="Application.MoveZeroToLeft" />
+        <item itemvalue="Application.HighLowIndexInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658863776175</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="//Recursion">
+      <created>1659551015111</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659551015111</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,62 +390,62 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1180" y="233" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768599027" />
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1659548784084">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1660650408821">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1659548784084" />
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660650408821" />
     <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1659548784084">
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1660650408821">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1659548784084" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660650408821" />
     <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1659548784084">
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1660650408821">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1659548784084" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660650408821" />
     <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1659548784084">
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1660650408821">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1659548784084" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660650408821" />
     <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1659547384019">
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1660650369405">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1659547384019" />
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660650369405" />
     <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
     <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1659547384019">
+    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1660650369405">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1659547384019" />
+    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660650369405" />
     <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
     <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1659547384019">
+    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1660650369405">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1659547384019" />
+    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660650369405" />
     <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
     <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1659547384019">
+    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1660650369405">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1659547384019" />
+    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660650369405" />
     <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
     <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
     <state x="-1459" y="161" key="SettingsEditor" timestamp="1654324028348">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1459" y="161" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654324028348" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1658863777345">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1660643580549">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1658863777345" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660643580549" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656528834461">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -459,10 +460,10 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1578" y="136" key="new project wizard/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768589477" />
-    <state x="-1389" y="234" key="run.anything.popup" timestamp="1655929028834">
+    <state x="-1389" y="234" key="run.anything.popup" timestamp="1660066127072">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1389" y="234" key="run.anything.popup/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1655929028834" />
+    <state x="-1389" y="234" key="run.anything.popup/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660066127072" />
     <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1653154720640" />
     <state x="-1297" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1654706236980">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -609,6 +610,16 @@
           <url>file://$PROJECT_DIR$/src/com/practice/Arrays/MaxNumSliding.java</url>
           <line>42</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/Arrays/HighLowIndexInSortedArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/Arrays/QuickSortArray.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
