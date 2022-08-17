@@ -35,7 +35,7 @@ public class MergeIntervals {
         result.add(new Interval(list.get(0).first,list.get(0).second));
         for (int i = 1; i < list.size(); i++) {
             int second = result.get(result.size()-1).second;
-            if(isInBetween(second,list.get(i))){
+            if(isInBetween(second,list.get(i).first)){
                 result.get(result.size()-1).second=Math.max(list.get(i).second,result.get(result.size()-1).second);
             }else{
                 result.add(new Interval(list.get(i).first,list.get(i).second));
@@ -50,8 +50,8 @@ public class MergeIntervals {
         
     }
 
-    private static Boolean isInBetween(int second, Interval interval) {
-        if(second>= interval.first){
+    private static Boolean isInBetween(int second, int interval) {
+        if(second>= interval){
             return true;
         }
         return false;

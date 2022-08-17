@@ -14,6 +14,7 @@ public class PermutationOfArrayII {
             x.forEach(System.out::print);
             System.out.println();
         });
+        System.out.println(42+25+"ss");
     }
 
     private static void findAllPermutationUsingSwap(int index, int[] arr, List<List<Integer>> resultList) {
