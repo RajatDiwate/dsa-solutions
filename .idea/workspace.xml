@@ -23,18 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Recursion">
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/BinarySearchAgnostic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/BinarySearchCeil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/BitonicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/IndexedSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/MergeIntervalsV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/SmallestSubArraySumWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/SquaringSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/practice/Arrays/SubArrayWithWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/array/problems/BasicArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/Arrays/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/Arrays/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/Recursion/ArraysStrings/PermutationOfArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/Recursion/ArraysStrings/PermutationOfArrayII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/Recursion/Subset/SubSetSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/Recursion/Subset/SubSetSumII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +67,25 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearchCeil">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\STUDY\FAANG-Class\Intellij-Idea\GitHub-QA\src\ProblemSolving" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BasicArrays">
+    <configuration name="BasicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemSolving.array.problems.BasicArrays" />
+      <module name="GitHub-QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProblemSolving.array.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearchCeil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.BinarySearchCeil" />
       <module name="GitHub-QA" />
@@ -117,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationOfArrayII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.ArraysStrings.PermutationOfArrayII" />
+    <configuration name="PrefixSuffixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemSolving.array.problems.PrefixSuffixSum" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.Recursion.ArraysStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsequenceCombinationOfSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.SubsequenceCombinationOfSum" />
-      <module name="GitHub-QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.practice.Recursion.*" />
+          <option name="PATTERN" value="ProblemSolving.array.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicArrays" />
+        <item itemvalue="Application.PrefixSuffixSum" />
         <item itemvalue="Application.BinarySearchCeil" />
         <item itemvalue="Application.MergeIntervalsV2" />
         <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.SubsequenceCombinationOfSum" />
-        <item itemvalue="Application.PermutationOfArrayII" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660651659120</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="//Recursion">
+      <created>1660753444796</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1660753444796</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,62 +405,66 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1180" y="233" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768599027" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1660751084019">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1660843485271">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660751084019" />
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660843485271" />
     <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
     <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1660751084019">
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1660843485271">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660751084019" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660843485271" />
     <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
     <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1660751084019">
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1660843485271">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660751084019" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660843485271" />
     <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
     <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1660751084019">
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1660843485271">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660751084019" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660843485271" />
     <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
     <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1660751068159">
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1660838730900">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660751068159" />
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660838730900" />
     <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
     <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1660751068159">
+    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1660838730900">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660751068159" />
+    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660838730900" />
     <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
     <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1660751068159">
+    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1660838730900">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660751068159" />
+    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660838730900" />
     <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
     <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1660751068159">
+    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1660838730900">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660751068159" />
+    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660838730900" />
     <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
     <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
+    <state x="-1145" y="449" key="ReplaceDuplicatesPrompt" timestamp="1660817543613">
+      <screen x="-1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="-1145" y="449" key="ReplaceDuplicatesPrompt/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660817543613" />
     <state x="-1459" y="161" key="SettingsEditor" timestamp="1654324028348">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1459" y="161" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654324028348" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1660651658771">
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1660753445606">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660651658771" />
+    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660753445606" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
     <state x="-1350" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1660720820376">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -468,10 +474,10 @@
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
     <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656528834461" />
-    <state x="552" y="219" key="extract.method.dialog" timestamp="1659372850787">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state x="-1230" y="277" key="extract.method.dialog" timestamp="1660817542319">
+      <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1230" y="277" key="extract.method.dialog/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656528333147" />
+    <state x="-1230" y="277" key="extract.method.dialog/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660817542319" />
     <state x="552" y="219" key="extract.method.dialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659372850787" />
     <state x="-1578" y="136" key="new project wizard" timestamp="1654768589477">
       <screen x="-1920" y="0" width="1920" height="1032" />
@@ -482,10 +488,10 @@
     </state>
     <state x="-1389" y="234" key="run.anything.popup/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660066127072" />
     <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1653154720640" />
-    <state x="-1297" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1654706236980">
+    <state x="-1297" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1660837121513">
       <screen x="-1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="-1297" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654706236980" />
+    <state x="-1297" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660837121513" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
