@@ -42,19 +42,16 @@ public class MergeIntervals {
             }
 
         }
-        String result_str = "";
-        for (int j = 0; j < result.size(); j++) {
-            result_str += "[" + result.get(j).first + ", " + result.get(j).second + "] ";
+        StringBuilder result_str = new StringBuilder();
+        for (Interval interval : result) {
+            result_str.append("[").append(interval.first).append(", ").append(interval.second).append("] ");
         }
         System.out.println("   Merged intervals:\t" + result_str);
         
     }
 
     private static Boolean isInBetween(int second, int interval) {
-        if(second>= interval){
-            return true;
-        }
-        return false;
+        return second >= interval;
     }
 
 

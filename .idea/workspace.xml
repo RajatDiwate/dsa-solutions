@@ -22,9 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="//Recursion">
-      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/array/problems/BasicArrays.java" afterDir="false" />
+    <list default="true" id="a8576fa4-a9f4-4013-8448-a58380270820" name="Default Changelist" comment="Practice Set">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint-state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProblemSolving/array/problems/BasicArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProblemSolving/array/problems/BasicArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/Arrays/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/Arrays/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/practice/Arrays/MergeIntervalsV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/Arrays/MergeIntervalsV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -57,16 +64,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ProblemSolving" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\STUDY\FAANG-Class\Intellij-Idea\GitHub-QA\src\ProblemSolving" />
@@ -99,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.MergeIntervals" />
+    <configuration name="PermutationOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.ArraysStrings.PermutationOfArray" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.Arrays.*" />
+          <option name="PATTERN" value="com.practice.Recursion.ArraysStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervalsV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.Arrays.MergeIntervalsV2" />
+    <configuration name="PermutationOfArrayII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.Recursion.ArraysStrings.PermutationOfArrayII" />
       <module name="GitHub-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.Arrays.*" />
+          <option name="PATTERN" value="com.practice.Recursion.ArraysStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BasicArrays" />
+        <item itemvalue="Application.PermutationOfArrayII" />
+        <item itemvalue="Application.PermutationOfArray" />
         <item itemvalue="Application.PrefixSuffixSum" />
         <item itemvalue="Application.BinarySearchCeil" />
-        <item itemvalue="Application.MergeIntervalsV2" />
-        <item itemvalue="Application.MergeIntervals" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660753444796</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Practice Set">
+      <created>1660844935002</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660844935002</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,7 +364,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CountMinimumSteps" />
@@ -374,124 +385,8 @@
     <MESSAGE value="//Delete Alt Nodes" />
     <MESSAGE value="//Union and Intersection" />
     <MESSAGE value="//Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="//Recursion" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1653072117878">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1653072117878" />
-    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1658252938465">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1155" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1658252938465" />
-    <state x="-1230" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1654343655612">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1230" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654343655612" />
-    <state x="499" y="155" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1653157489170">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="499" y="155" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.816@0.0.1536.816" timestamp="1653157489170" />
-    <state x="-825" y="218" key="#xdebugger.evaluate" timestamp="1659546041821">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-825" y="218" key="#xdebugger.evaluate/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1659546041821" />
-    <state width="444" height="466" key="DebuggerActiveHint" timestamp="1660738473727">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="444" height="466" key="DebuggerActiveHint/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660738473727" />
-    <state x="-1180" y="233" key="FileChooserDialogImpl" timestamp="1654768599027">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1180" y="233" key="FileChooserDialogImpl/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768599027" />
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1660843485271">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660843485271" />
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
-    <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1660843485271">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660843485271" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
-    <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1660843485271">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660843485271" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
-    <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1660843485271">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660843485271" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373515910" />
-    <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695680" />
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1660838730900">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660838730900" />
-    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
-    <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1660838730900">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660838730900" />
-    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
-    <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1660838730900">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660838730900" />
-    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
-    <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1660838730900">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660838730900" />
-    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659373516129" />
-    <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1654348695681" />
-    <state x="-1145" y="449" key="ReplaceDuplicatesPrompt" timestamp="1660817543613">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1145" y="449" key="ReplaceDuplicatesPrompt/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660817543613" />
-    <state x="-1459" y="161" key="SettingsEditor" timestamp="1654324028348">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1459" y="161" key="SettingsEditor/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654324028348" />
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2" timestamp="1660753445606">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1469" y="178" key="Vcs.Push.Dialog.v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660753445606" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653155077915" />
-    <state x="-1350" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1660720820376">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1350" y="152" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660720820376" />
-    <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656528834461">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1143" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1656528834461" />
-    <state x="-1230" y="277" key="extract.method.dialog" timestamp="1660817542319">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1230" y="277" key="extract.method.dialog/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660817542319" />
-    <state x="552" y="219" key="extract.method.dialog/0.0.1536.816/-1920.0.1920.1032@0.0.1536.816" timestamp="1659372850787" />
-    <state x="-1578" y="136" key="new project wizard" timestamp="1654768589477">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1578" y="136" key="new project wizard/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1654768589477" />
-    <state x="-1389" y="234" key="run.anything.popup" timestamp="1660066127072">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1389" y="234" key="run.anything.popup/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660066127072" />
-    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1653154720640" />
-    <state x="-1297" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1660837121513">
-      <screen x="-1920" y="0" width="1920" height="1032" />
-    </state>
-    <state x="-1297" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1536.816/-1920.0.1920.1032@-1920.0.1920.1032" timestamp="1660837121513" />
+    <MESSAGE value="Practice Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -648,14 +543,14 @@
     </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GitHub_QA$PermutationOfArray.ic" NAME="PermutationOfArray Coverage Results" MODIFIED="1658858010898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.practice.Recursion.ArraysStrings.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/GitHub_QA$MaxSubArraySum.ic" NAME="MaxSubArraySum Coverage Results" MODIFIED="1659461054331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.practice.test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/GitHub_QA$Subsequence.ic" NAME="Subsequence Coverage Results" MODIFIED="1657741495673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.practice.Recursion.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/GitHub_QA$PermutationOfArray.ic" NAME="PermutationOfArray Coverage Results" MODIFIED="1658858010898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.practice.Recursion.ArraysStrings.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/GitHub_QA$ArrayOfProducts.ic" NAME="ArrayOfProducts Coverage Results" MODIFIED="1659373737265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.practice.test.*</FILTER>

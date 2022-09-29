@@ -13,7 +13,7 @@ public class MergeIntervalsV2 {
         }
     };
     public static void main(String[] args) {
-        List<Interval> input = new ArrayList<Interval>();
+        List<Interval> input = new ArrayList<>();
         input.add(new Interval(1, 4));
         input.add(new Interval(2, 5));
         input.add(new Interval(7, 9));
@@ -22,7 +22,7 @@ public class MergeIntervalsV2 {
             System.out.print("[" + interval.start + "," + interval.end + "] ");
         System.out.println();
 
-        input = new ArrayList<Interval>();
+        input = new ArrayList<>();
         input.add(new Interval(6, 7));
         input.add(new Interval(2, 4));
         input.add(new Interval(5, 9));
@@ -47,7 +47,7 @@ public class MergeIntervalsV2 {
 
         // sort the intervals by start time
        // Collections.sort(intervals, (a, b) -> Integer.compare(a.start, b.start));
-        Collections.sort(intervals, Comparator.comparingInt(a -> a.start));
+        intervals.sort(Comparator.comparingInt(a -> a.start));
 
         List<Interval> mergedIntervals = new LinkedList<Interval>();
         Iterator<Interval> intervalItr = intervals.iterator();
